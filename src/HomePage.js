@@ -6,7 +6,7 @@ const HomePage = () => {
     <div className="full-screen">
       {/* Background video */}
       <div className="background-video">
-        <video autoPlay loop muted>
+        <video autoPlay loop muted playsInline>
           {/* Make sure to place your video in the public folder and update the path */}
           <source src="/eacc.mp4" type="video/mp4" />
           Your browser does not support the video tag.
