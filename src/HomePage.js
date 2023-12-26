@@ -19,11 +19,11 @@ const HomePage = () => {
       </div>
       {/* Button to display Christmas message */}
       <button onClick={displayChristmasMessage} className="experiment-button">
-        Let's Brainstorm!!!
+        hellooo!!!
       </button>
       {/* Display the Christmas message if showChristmasMessage is true */}
       {showChristmasMessage && (
-        <div className="merry-christmas-message">Merry Christmas Retards!</div>
+        <div className="merry-christmas-message">Merry Christmas!</div>
         )}
         {/* Text field in the top left corner */}
         <input type="text" className="top-left-text-field" placeholder="x^Ponent" />
