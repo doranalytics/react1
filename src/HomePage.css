@@ -42,3 +42,41 @@ html, body {
     background-color: rgba(255, 255, 255, 0.5); /* Slightly more opaque on hover */
     color: #000000; /* Change text color on hover if needed */
   }
+
+  .merry-christmas-message {
+    position: absolute;
+    top: 50%; /* Vertically center the message */
+    left: 90px; /* Adjust the left position as needed */
+    height: 200px;
+    width: 200px;
+    transform: translateY(-90%); /* Center vertically */
+    background-color: rgba(43, 31, 31, 0.753); /* Semi-transparent white */
+    border: 4px solid #d33e3e; /* White border */
+    border-radius: 0px; /* Rounded corners */
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 44px;
+    display: flex;
+    color: #FFFFFF; /* White text */
+    font-weight: 600;
+    transition: all 0.3s ease; /* Transition for all properties for a smooth effect */
+  }
+
+    .merry-christmas-message:hover {
+        background-color: rgb(255, 255, 255); /* Slightly more opaque on hover */
+        color: #000000e0; /* Change text color on hover if needed */
+    }
+
+  .top-left-text-field {
+    position: fixed;
+    top: 10px;
+    left: 90px;
+    padding: 5px;
+    font-size: 99px;
+    font-family: Arial, sans-serif; /* Corrected font property to font-family */
+    color: #0f0f0f; /* White text */
+    background: transparent; /* No background */
+    border: none; /* No border */
+    outline: none; /* Removes outline on focus */
+    z-index: 4
+}
