@@ -2,11 +2,8 @@ import React, { useState } from 'react';
 import './HomePage.css';
 
 const HomePage = () => {
-  const [showChristmasMessage, setShowChristmasMessage] = useState(false);
 
-  const displayChristmasMessage = () => {
-    setShowChristmasMessage(true);
-  };
+
 
   return (
     <div className="full-screen">
@@ -17,17 +14,11 @@ const HomePage = () => {
           Your browser does not support the video tag.
         </video>
       </div>
-      {/* Button to display Christmas message */}
-      <button onClick={displayChristmasMessage} className="experiment-button">
-        hellooo!!!
-      </button>
-      {/* Display the Christmas message if showChristmasMessage is true */}
-      {showChristmasMessage && (
-        <div className="merry-christmas-message">Merry Christmas!</div>
-        )}
-        {/* Text field in the top left corner */}
-        <input type="text" className="top-left-text-field" placeholder="x^Ponent" />
-      </div>
+      <a href="https://www.linktr.ee/doranalytics" target="_blank" rel="noopener noreferrer" className="experiment-button">
+doranalytics      </a>
+
+      )
+    </div>
   );
 };
 

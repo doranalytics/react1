@@ -30,7 +30,7 @@ html, body {
     padding: 1rem 2rem;
     display: inline-block;
     position: absolute; /* Position absolute to the parent full-screen */
-    bottom: 10px; /* Aligns to the bottom */
+    top: 10px; 
     left: 90px; /* Aligns to the left */
     text-decoration: none;
     color: #FFFFFF; /* White text */
